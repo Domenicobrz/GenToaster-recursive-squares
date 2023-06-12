@@ -1,0 +1,7 @@
+// bootstrap the project with vite:
+npm create vite@latest
+// and choose vanilla / javascript 
+
+// and get these dependencies:
+npm i three@0.153 -E
+npm i simplex-noise@4.0.1 -E
