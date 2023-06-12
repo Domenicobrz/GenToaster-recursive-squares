@@ -42,8 +42,8 @@ function square(level, position, transformMatrix, size, outlined) {
       scaledMat1
     );
 
-    let leveledScale = 0.9;
-    if (level > 3) leveledScale = 0.6;   
+    let leveledScale = 0.925;
+    if (level > 3) leveledScale = 0.8;   
 
     const scaledMat2 = new Matrix4().copy(transformMatrix);
     scaledMat2.multiplyMatrices(
